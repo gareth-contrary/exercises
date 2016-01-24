@@ -5,5 +5,4 @@ Short form questions
 Question 1
 1 - An abstract class can contain fields which are not static or final.
 2 - Methods in an abstract class can contain access modifiers other than public. 
-In an interface, methods must be public.
-3 - 
+3 - A subclass can only extend one abstract class, but can implement many interfaces.
