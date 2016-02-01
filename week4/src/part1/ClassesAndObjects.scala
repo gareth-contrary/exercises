@@ -42,7 +42,17 @@ object ClassesAndObjects {
     println(g3)
     //different memory refs
     
-    
+    //Methods inside classes q1
+    //val sailboat = new Sailboat
+    //val r1 = sailboat.raise()
+    //assert(r1 == "Sails raised", "Expected Sails raised, Got " + r1)
+    //val r2 = sailboat.lower()
+    //assert(r2 == "Sails lowered", "Expected Sails lowered, Got " + r2)
+    val motorboat = new Motorboat
+    val a1 = motorboat.on()
+    assert(a1 == "Motor on", "Expected Motor on, Got " + a1)
+    val a2 = motorboat.off()
+    assert(a2 == "Motor off", "Expected Motor off, Got " + a2)
   }
   
   class Hippo{}
@@ -51,4 +61,13 @@ object ClassesAndObjects {
   class Monkey{}
   class Giraffe{}
   
+  class Sailboat{
+    def lower() = {println("Sails lowered")}  
+    def raise() = {println("Sails raised")}
+  }
+  
+  class Motorboat{
+    def on():String = {"Motor on"}  
+    def off():String = {"Motor off"}
+  }
 }
