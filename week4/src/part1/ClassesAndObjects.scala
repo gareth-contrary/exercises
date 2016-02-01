@@ -20,7 +20,35 @@ object ClassesAndObjects {
     } else {
       println("s1 and s2 are not equal")
     }
+    
+    //Creating Classes q1
+    val h = new Hippo()
+    println(h)
+    val l = new Lion()
+    println(l)
+    val t = new Tiger()
+    println(t)
+    val m = new Monkey()
+    println(m)
+    val g = new Giraffe()
+    println(g)
+    
+    //Creating Classes q2
+    val l2 = new Lion()
+    println(l2)
+    val g2 = new Giraffe()
+    println(g2)
+    val g3 = new Giraffe()
+    println(g3)
+    //different memory refs
+    
+    
   }
   
+  class Hippo{}
+  class Lion{}
+  class Tiger{}
+  class Monkey{}
+  class Giraffe{}
   
 }
