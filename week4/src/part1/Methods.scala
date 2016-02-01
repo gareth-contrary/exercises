@@ -17,6 +17,12 @@ object Methods {
     val t2 = isArg1GreaterThanArg2(2.1, 1.2)
     assert(t2 == true)
     
+    //tests q3
+    val m1 = manyTimesString("abc", 3)
+    assert("abcabcabc" == m1, "m1")
+    val m2 = manyTimesString("123", 2)
+    assert("123123" == m2, "m2")
+    
   } // end of main
   
   def getSquare(num : Int):Int = {
@@ -34,5 +40,9 @@ object Methods {
     }
   }
 
+  def manyTimesString(string : String, times : Int):String = {
+    println(string * times)
+    string * times
+  }
   
 } //end of Methods
