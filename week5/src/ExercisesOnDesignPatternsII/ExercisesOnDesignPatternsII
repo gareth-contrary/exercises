@@ -1,6 +1,0 @@
-Exercises on Design Patterns II
-
-Q1
-
-a) Different but related behaviours are each given a concrete class which implement the same interface. By
-encapsulating the interface within a client, that client can use any of the available behaviours.
