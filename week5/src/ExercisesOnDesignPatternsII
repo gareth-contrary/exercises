@@ -13,3 +13,7 @@ Q3
 The abstract factory method should be used when you wish to separate the client from concrete types. It
 allows for new concrete types to be introduced without rewriting the client code because client depend only
 abstract types.
+
+
+Q5
+
