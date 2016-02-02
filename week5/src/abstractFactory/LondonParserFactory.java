@@ -14,6 +14,7 @@ public class LondonParserFactory implements AbstractParserFactory{
 			return new LondonResponseXMLParser();
 		} else {
 			System.out.println("Invalid Parser Type");
+			return null;
 		}
 	}
 	

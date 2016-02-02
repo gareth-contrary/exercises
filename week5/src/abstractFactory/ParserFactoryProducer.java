@@ -7,6 +7,9 @@ public class ParserFactoryProducer {
 			return new NYCParserFactory();
 		} else if (factoryType.equals("LondonFactory")){
 			return new LondonParserFactory();
+		} else {
+			System.out.println("Invalid Factory Type");
+			return null;
 		}
 	}
 

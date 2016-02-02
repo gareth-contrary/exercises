@@ -14,6 +14,7 @@ public class NYCParserFactory implements AbstractParserFactory {
 			return new NYCResponseXMLParser();
 		} else {
 			System.out.println("Invalid Parser Type");
+			return null;
 		}
 	}
 
