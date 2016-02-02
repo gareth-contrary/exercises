@@ -6,3 +6,10 @@ a) Different but related behaviours are each given a concrete class which implem
 encapsulating the interface within a client, that client can use any of the available behaviours.
 
 b) It is appropriate to use the strategy pattern whenever i unknown until runtime.
+
+
+Q3
+
+The abstract factory method should be used when you wish to separate the client from concrete types. It
+allows for new concrete types to be introduced without rewriting the client code because client depend only
+abstract types.
