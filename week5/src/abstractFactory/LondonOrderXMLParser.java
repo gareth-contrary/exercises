@@ -4,7 +4,8 @@ public class LondonOrderXMLParser implements XMLParser {
 
 	@Override
 	public String parse() {
-		return "Parsed string...";
+		System.out.println("London Parsing order XML...");
+		return "London Order XML Message";
 
 	}
 

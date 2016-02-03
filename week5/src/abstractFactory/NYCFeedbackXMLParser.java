@@ -4,7 +4,8 @@ public class NYCFeedbackXMLParser implements XMLParser {
 
 	@Override
 	public String parse() {
-		return "Parsed string ...";
+		System.out.println("NYC Parsing feedback XML...");
+		return "NYC Feedback XML Message";
 	}
 
 }

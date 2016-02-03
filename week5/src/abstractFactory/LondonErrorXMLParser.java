@@ -4,7 +4,8 @@ public class LondonErrorXMLParser implements XMLParser {
 
 	@Override
 	public String parse() {
-		return "Parsed string ...";
+		System.out.println("London Parsing error XML...");
+		return "London Error XML Message";
 
 	}
 

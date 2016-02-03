@@ -4,7 +4,8 @@ public class NYCErrorXMLParser implements XMLParser {
 
 	@Override
 	public String parse() {
-		return "Parsed string ...";
+		System.out.println("NYC Parsing error XML...");
+		return "NYC Error XML Message";
 	}
 
 }
