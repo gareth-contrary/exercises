@@ -13,6 +13,8 @@ public class HtmlParentElement extends HtmlTag {
 	
 	public HtmlParentElement(String tagName) {
 		this.tagName = tagName;
+		this.children = new ArrayList<HtmlTag>();
+		this.tagBody = "";
 	}
 	
 	@Override
@@ -31,22 +33,31 @@ public class HtmlParentElement extends HtmlTag {
 	}
 
 	@Override
-	public void generateHtml() {
-		// TODO Auto-generated method stub
-
-	}
-	
-	@Override
 	public void setTagBody(String tagBody) {
 		this.tagBody = tagBody;
 	}
 
 	@Override
 	public void addChildTag(HtmlTag htmlTag) {
-		if (children.equals(null)) {
-			children = new ArrayList<HtmlTag>();
+		children.add(htmlTag);
+	}
+	
+	@Override
+	public List<HtmlTag> getChildren() {
+		return children;
+	}
+	
+	@Override
+	public void generateHtml() {
+		System.out.print(startTag);
+		if(!tagBody.equals("")) {
+			System.out.print(tagBody);
 		} else {
-			children.add(htmlTag);
+			System.out.println();
 		}
+		for (HtmlTag child : children) {
+			child.generateHtml();
+		}
+		System.out.println(endTag);
 	}
 }

@@ -6,9 +6,11 @@ public class HtmlElement extends HtmlTag {
 	private String startTag;
 	private String endTag;
 	private String setTagBody;
+	private String tagBody;
 	
 	public HtmlElement(String name) {
 		this.tagName = name;
+		this.tagBody = "";
 	}
 	
 	@Override
@@ -28,12 +30,17 @@ public class HtmlElement extends HtmlTag {
 
 	@Override
 	public void generateHtml() {
-		// TODO Auto-generated method stub
-
+		System.out.print(startTag);
+		if (!tagBody.equals("")) {
+			System.out.print(tagBody);
+		} else {
+			System.out.println();		
+		}
+		System.out.println(endTag);
 	}
 
 	@Override
 	public void setTagBody(String tagBody) {
-		this.setTagBody = tagBody;
+		this.tagBody = tagBody;
 	}
 }
