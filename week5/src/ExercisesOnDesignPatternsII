@@ -20,9 +20,9 @@ Q5
 
 Q9
 
-a) The facade pattern uses a wrapper class which encapsulates one of more classes within it. The intention is 
+a) The facade pattern uses a wrapper class which encapsulates one or more classes within it. The intention is 
 to hide the complexity within inner classes from a client. The wrapper class provides a simplified 
-interface for performing the same behaviour as inner classes.
+interface for utilising the behaviour of inner classes.
 
 b) The facade pattern can be used to achieve the following aims: reduce dependencies on methods used within inner 
 classes; increase code readability; make complex easier to use.
