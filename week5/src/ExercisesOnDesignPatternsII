@@ -18,7 +18,7 @@ abstract types.
 Q5
 
 
-Q9
+Q8
 
 a) The facade pattern uses a wrapper class which encapsulates one or more classes within it. The intention is 
 to hide the complexity within inner classes from a client. The wrapper class provides a simplified 
@@ -26,3 +26,10 @@ interface for utilising the behaviour of inner classes.
 
 b) The facade pattern can be used to achieve the following aims: reduce dependencies on methods used within inner 
 classes; increase code readability; make complex code easier to use.
+
+
+Q9
+
+The bridge pattern is used when there is a need to remove the binding between an abstraction and an
+implementation. The bridge pattern introduces a class between the abstraction and implementation which allows 
+each to differ independently. 
