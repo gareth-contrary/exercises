@@ -33,3 +33,15 @@ Q9
 The bridge pattern is used when there is a need to remove the binding between an abstraction and an
 implementation. The bridge pattern introduces a class between the abstraction and implementation which allows 
 each to differ independently. 
+
+
+Q11
+
+a) The composite pattern takes a group of different objects and creates an abstract class which defines
+generic behaviour across these classes. The intent is to model classes in a tree structure. An example of this 
+could be file system where directories and files have similar behaviours such as copy, cut and paste.
+
+b) The composite pattern should be used when new components are frequently added. By defining a generic behaviour, 
+components can change without effecting clients.
+
+c) The four particpants in the composite pattern are Composite, Component, Leaf and Client.
