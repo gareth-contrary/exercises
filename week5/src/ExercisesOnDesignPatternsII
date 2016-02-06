@@ -17,8 +17,15 @@ abstract types.
 
 Q5
 
+Generally, the details of object construction are kept within the class which composes it because this increases 
+modularity and decreases construction bloat. Construction bloat occurs was there are many lines of code which 
+instantiate the same object. If at a future point, the programmer wishes to change this object for another, 
+each dependent line of code must be changed. By limiting object instantiation to the class which composes that 
+object, only 1 line of code needs to be changed. Changing components with this level of ease greatly increases a 
+program's modularity.
 
-Q8
+
+Q7
 
 a) The facade pattern uses a wrapper class which encapsulates one or more classes within it. The intention is 
 to hide the complexity within inner classes from a client. The wrapper class provides a simplified 
