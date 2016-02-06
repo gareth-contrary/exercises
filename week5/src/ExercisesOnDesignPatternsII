@@ -25,4 +25,4 @@ to hide the complexity within inner classes from a client. The wrapper class pro
 interface for utilising the behaviour of inner classes.
 
 b) The facade pattern can be used to achieve the following aims: reduce dependencies on methods used within inner 
-classes; increase code readability; make complex easier to use.
+classes; increase code readability; make complex code easier to use.
