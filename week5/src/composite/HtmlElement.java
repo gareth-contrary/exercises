@@ -2,22 +2,28 @@ package composite;
 
 public class HtmlElement extends HtmlTag {
 
+	private String tagName;
+	private String startTag;
+	private String endTag;
+	private String setTagBody;
+	
+	public HtmlElement(String name) {
+		this.tagName = name;
+	}
+	
 	@Override
 	public String getTagName() {
-		// TODO Auto-generated method stub
-		return null;
+		return tagName;
 	}
 
 	@Override
 	public void setStartTag(String tag) {
-		// TODO Auto-generated method stub
-
+		this.startTag = tag;
 	}
 
 	@Override
 	public void setEndTag(String tag) {
-		// TODO Auto-generated method stub
-
+		this.endTag = tag;
 	}
 
 	@Override
@@ -26,4 +32,8 @@ public class HtmlElement extends HtmlTag {
 
 	}
 
+	@Override
+	public void setTagBody(String tagBody) {
+		this.setTagBody = tagBody;
+	}
 }
