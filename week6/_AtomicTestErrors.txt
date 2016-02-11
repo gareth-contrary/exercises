@@ -10,3 +10,9 @@ Unknown[Error] expected:
 Cloudy
 4.4[Error] expected:
 4
+Lemon Zinger[Error] expected:
+Lemon Zinger decaf
+Jasmine Green[Error] expected:
+Jasmine Green + sugar
+Earl Grey[Error] expected:
+Earl Grey + milk + sugar
