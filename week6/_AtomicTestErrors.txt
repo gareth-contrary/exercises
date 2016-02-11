@@ -8,3 +8,5 @@ Cloudy[Error] expected:
 Mostly Sunny
 Unknown[Error] expected:
 Cloudy
+4.4[Error] expected:
+4

@@ -5,4 +5,6 @@ case class Planet(name: String, moons: Int = 1, description: String) {
     if (moons > 0) {return true}
     else {return false}
   }
+  
+
 }
