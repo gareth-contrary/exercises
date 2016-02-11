@@ -16,3 +16,5 @@ Jasmine Green[Error] expected:
 Jasmine Green + sugar
 Earl Grey[Error] expected:
 Earl Grey + milk + sugar
+4.4[Error] expected:
+4
