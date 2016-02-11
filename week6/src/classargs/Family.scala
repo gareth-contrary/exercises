@@ -1,5 +1,7 @@
 package classargs
 
-class Family {
+class Family(member : String*) {
+
+  def familySize() = member.size
   
 }
