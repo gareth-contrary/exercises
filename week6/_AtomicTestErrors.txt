@@ -18,3 +18,7 @@ Earl Grey[Error] expected:
 Earl Grey + milk + sugar
 4.4[Error] expected:
 4
+Set()[Error] expected:
+Set(10.0, 20.0)
+Set()[Error] expected:
+Set(1.0, 2.0, 3.0, 4.0)
