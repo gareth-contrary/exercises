@@ -22,3 +22,7 @@ Set()[Error] expected:
 Set(10.0, 20.0)
 Set()[Error] expected:
 Set(1.0, 2.0, 3.0, 4.0)
+1,2,3,41[Error] expected:
+1,2,3,4,
+7354956[Error] expected:
+7 35 49 56 
