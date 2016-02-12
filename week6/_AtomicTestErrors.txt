@@ -30,3 +30,11 @@ Set(1.0, 2.0, 3.0, 4.0)
 1 4 25 9 49 
 1425949[Error] expected:
 1 4 25 9 49 
+()[Error] expected:
+Vector(21, 32, 43, 54)
+Vector(4, 3, 2, 1)[Error] expected:
+Vector(21, 32, 43, 54)
+Vector(1, 2, 3, 4)[Error] expected:
+Vector(21, 32, 43, 54)
+Vector(1, 2, 3, 4)[Error] expected:
+Vector(21, 32, 43, 54)
