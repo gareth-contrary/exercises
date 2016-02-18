@@ -15,7 +15,6 @@ object Q1 extends App {
   //foreach will return a function
   
   //part c 
-  val v3 = Vector(1, 2, 3, 4)
   def f(v: Vector[Int]): Vector[Int] =  {
     var result = Vector[Int]()
     for (x <- v.reverse) {
@@ -24,6 +23,21 @@ object Q1 extends App {
     result
   }
   
-  f(v3) is Vector(21, 32, 43, 54)  
+  f(v) is Vector(21, 32, 43, 54)  
+  
+  
+  // Q3 
+  val v4 = Vector(1, 10, 100, 1000)
+  def reducer(v: Vector[Int]): Int = {  
+    var result = 0
+    for(x <- v.reverse) {
+      result += x
+    }
+    result
+  }
+  reducer(v4) is 1111
+    
+  
+  
   
 }

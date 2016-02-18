@@ -1,0 +1,38 @@
+()[Error] expected:
+Vector(21, 32, 43, 54)
+()[Error] expected:
+Vector(21, 32, 43, 54)
+()[Error] expected:
+Vector(21, 32, 43, 54)
+Vector()[Error] expected:
+Vector(21, 32, 43, 54)
+()[Error] expected:
+Vector(21, 32, 43, 54)
+Vector()[Error] expected:
+Vector(21, 32, 43, 54)
+()[Error] expected:
+Vector(21, 32, 43, 54)
+Vector(50, 40, 30, 20)[Error] expected:
+Vector(21, 32, 43, 54)
+()[Error] expected:
+Vector(21, 32, 43, 54)
+Vector(20, 30, 40, 50)[Error] expected:
+Vector(21, 32, 43, 54)
+()[Error] expected:
+Vector(21, 32, 43, 54)
+Vector(20, 30, 40, 50)[Error] expected:
+Vector(21, 32, 43, 54)
+()[Error] expected:
+Vector(21, 32, 43, 54)
+()[Error] expected:
+Vector(21, 32, 43, 54)
+10[Error] expected:
+1111
+()[Error] expected:
+Vector(21, 32, 43, 54)
+10[Error] expected:
+1111
+()[Error] expected:
+Vector(21, 32, 43, 54)
+()[Error] expected:
+Vector(21, 32, 43, 54)
