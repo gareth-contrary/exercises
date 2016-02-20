@@ -36,3 +36,7 @@ Vector(21, 32, 43, 54)
 Vector(21, 32, 43, 54)
 ()[Error] expected:
 Vector(21, 32, 43, 54)
+()[Error] expected:
+Vector(21, 32, 43, 54)
+()[Error] expected:
+Vector(21, 32, 43, 54)

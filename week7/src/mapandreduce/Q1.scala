@@ -36,7 +36,17 @@ object Q1 extends App {
     result
   }
   reducer(v4) is 1111
-    
+  
+  //Q4
+  def sumIt(nums: Int*): Int = {
+    nums.reduce((acc, x) => acc + x)
+  }
+  
+  
+  sumIt(1, 2, 3) is 6
+  sumIt(45, 45, 45, 60) is 195
+  
+  
   
   
   
