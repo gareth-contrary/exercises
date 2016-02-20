@@ -40,3 +40,9 @@ Vector(21, 32, 43, 54)
 Vector(21, 32, 43, 54)
 ()[Error] expected:
 Vector(21, 32, 43, 54)
+()[Error] expected:
+Vector(21, 32, 43, 54)
+A red rectangle of width 4.0cm and height 3.0cm[Error] expected:
+A red rectangle of width 4cm and height 3cm
+A dark circle of radius 3.0cm[Error] expected:
+A dark rectangle of radius 3.0cm

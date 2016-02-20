@@ -42,12 +42,6 @@ object Q1 extends App {
     nums.reduce((acc, x) => acc + x)
   }
   
-  
   sumIt(1, 2, 3) is 6
   sumIt(45, 45, 45, 60) is 195
-  
-  
-  
-  
-  
 }
