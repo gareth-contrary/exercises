@@ -46,3 +46,5 @@ A red rectangle of width 4.0cm and height 3.0cm[Error] expected:
 A red rectangle of width 4cm and height 3cm
 A dark circle of radius 3.0cm[Error] expected:
 A dark rectangle of radius 3.0cm
+Infinite()[Error] expected:
+Infinite
