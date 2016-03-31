@@ -1,0 +1,6 @@
+Q11
+
+Use Sum Types when you have may types which share the same trait and there is no possibility for future sub types to be added. 
+One advantage of sum types in Scala is that the compiler will enforce strict type checking to ensure all cases are handled.
+
+Product types should be used when a single type is composed of more than one field.
