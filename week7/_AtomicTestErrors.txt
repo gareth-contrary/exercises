@@ -48,3 +48,5 @@ A dark circle of radius 3.0cm[Error] expected:
 A dark rectangle of radius 3.0cm
 Infinite()[Error] expected:
 Infinite
+Pair(1,Pair(2,Pair(3,Empty())))[Error] expected:
+1
