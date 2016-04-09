@@ -1,5 +1,4 @@
 package longFormQuestions;
-
 public class XpayToPayDAdapter implements PayD {
 	
 	private XPay xPay = null;

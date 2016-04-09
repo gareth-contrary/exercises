@@ -1,5 +1,6 @@
 package longFormQuestions;
 
+
 public class XPayImpl implements XPay {
 
 	private String creditCardNo;

@@ -1,5 +1,6 @@
 package longFormQuestions;
 
+
 public interface XPay {
 	String getCreditCardNo();
 	
